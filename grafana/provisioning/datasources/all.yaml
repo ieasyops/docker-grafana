@@ -1,0 +1,7 @@
+datasources:
+  - name: 'querier'
+    type: 'prometheus'
+    access: 'proxy'
+    org_id: 1
+    url: 'http://query.com'
+    version: 1
